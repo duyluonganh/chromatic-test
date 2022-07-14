@@ -1,0 +1,23 @@
+{
+  "name": "chromatic-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-storybook": "npx chromatic --project-token=3c63aed97519 --build-script-name build-storybook",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duyluonganh/chromatic-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duyluonganh/chromatic-test/issues"
+  },
+  "homepage": "https://github.com/duyluonganh/chromatic-test#readme",
+  "devDependencies": {
+    "chromatic": "^6.7.0"
+  }
+}
