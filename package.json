@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "chromatic": "chromatic",
     "build-storybook": "npx chromatic --project-token=3c63aed97519 --build-script-name build-storybook",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
